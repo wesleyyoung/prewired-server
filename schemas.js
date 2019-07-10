@@ -56,6 +56,13 @@
         title: String,
         type: String,
         location: String,
+        pics: [{
+            description: String,
+            img: Buffer, 
+            content_type: String,
+            date_uploaded: Date,
+            uploaded_by: String
+        }],
         group_convo: {
             authorizedAccounts: [String],
             updates: [{

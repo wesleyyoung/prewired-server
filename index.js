@@ -29,8 +29,6 @@
 
     app.use(cors());
 
-    
-
     var
         CompanyAccountModel = mongoose.model('company', schemas.company),
         ProjectModel = mongoose.model('project', schemas.project);
@@ -403,7 +401,6 @@
                     });
                 }
             });
-
         });
     });
 
